@@ -1,0 +1,36 @@
+.movie-details {
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.movie-poster img {
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+.movie-info {
+  flex: 1;
+}
+
+.metadata {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.metadata p {
+  margin: 5px 0;
+}
+
+.cast ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cast li {
+  margin-bottom: 5px;
+}
